@@ -8,7 +8,7 @@ import android.widget.Button
 
 class MainActivity : AppCompatActivity(), View.OnClickListener {
     private lateinit var btnMoveActivity: Button
-    private lateinit var btnBackActivity: Button
+
     private lateinit var btnMoveWithData: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -18,8 +18,6 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         btnMoveActivity = findViewById(R.id.btn_move_activity)
         btnMoveActivity.setOnClickListener(this)
 
-        btnBackActivity = findViewById(R.id.btn_back_activity)
-        btnBackActivity.setOnClickListener(this)
 
         btnMoveWithData = findViewById(R.id.btn_move_with_data)
         btnMoveWithData.setOnClickListener(this)
@@ -41,10 +39,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                     intent.putExtra(bundle)
                     startActivity(intent)
                 }
-                    R.id.btn_back_activity -> run {
-                    val intent = Intent(this, MoveActivity::class.java)
-                    startActivity(intent)
-                }
+
             }
         }
     }
