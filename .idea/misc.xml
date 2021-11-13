@@ -3,8 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/PPB DWI/intent/IntentDwiKusdiana/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/PPB DWI/intent/IntentDwiKusdiana/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/PPB DWI/intent/IntentDwiKusdiana/app/src/main/res/layout/activity_move.xml" value="0.21" />
+        <entry key="..\:/PPB DWI/intent/IntentDwiKusdiana/app/src/main/res/layout/activity_move_form_result.xml" value="0.1" />
         <entry key="..\:/PPB DWI/intent/IntentDwiKusdiana/app/src/main/res/layout/activity_move_with_data.xml" value="0.2" />
       </map>
     </option>
